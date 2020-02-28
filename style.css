@@ -45,8 +45,10 @@ hl{
 .banner-text ul li{
     display: inline-block;
     padding: 40px 15px;
+    text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #262626;
+    font-weight: bold;
     font-size: 20px;
 }
 /*Home etc*/
