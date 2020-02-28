@@ -51,6 +51,11 @@ hl{
     font-weight: bold;
     font-size: 20px;
 }
+ul li.active a
+{
+    background: #262626;
+    color: #fff;
+}
 /*Home etc*/
 @keyframes change {
     0%{
