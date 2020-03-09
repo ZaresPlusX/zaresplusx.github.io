@@ -1,52 +1,51 @@
 @import "https://fonts.googleapis.com/css?family=Lato:100";
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background-color: #efefef!important;
 }
-
-html{
-    font-size: 10px;
-    font-family: "Lato", Arial, sans-serif;
+.single-blog{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff
 }
-
-section{
+.single-blog img{
     width: 100%;
-    height: 100vh;
+}
+.blog-meta{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.single-blog span{
+    float: right;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+.blog-text{
+    font-size: 14px;
+    text-align: justify;
+}
+.single-blog h2{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+}
+.single-blog h2 a{
+    text-decoration: none;
+}
+.read-more-btn{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 14px;
     color: #fff;
-    background: linear-gradient(110deg, #c33764, #1d2671, #e60000);
-    background-size: 400% 400%;
-    animation: change 10s ease-in-out infinite;
+    border: none!important;
 }
-/*text in middle setting*/
-hl{ 
-    font-size: 5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 1px solid #fff;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 5rme 10rem;
-    font-weight: none;
+.read-more-btn:hover{
+    background-image: linear-gradient(to right, #006417, #00b128);
+    text-decoration: none;
     color: #fff;
-    font-family: sans-serif;
 }
-p{ 
-    font-size: 5rem;
-    text-transform: uppercase;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #262626;
-    background: #fff;
-    font-family: arial;
-}
-/*text in middle setting*/
-/*Home etc*/
 .bannner-text{ 
     width: 100%;
     position: absolute;
@@ -75,7 +74,7 @@ ul li a:hover{
 }
 ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #181818;
     padding: 5px 20px;
     border: 1px solid transparent;
     transition: 0.6s ease;
@@ -102,89 +101,4 @@ ul li.active a{
 .btn:hover{
     background-color: #fff;
     color: #000;
-}
-/*Home etc*/
-@keyframes change {
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-    0%{
-        background-position: 0 50%;
-    }
-}
-.animation-area{
-    width: 50%;
-    height: 50vh;
-}
-.box-area{
-    position: absolute;
-    top: 60;
-    left: 0;
-    width: 100%;
-    height: 93%;
-    overflow: hidden;
-}
-.box-area li{
-    position: absolute;
-    display: block;
-    list-style: none;
-    width: 25px;
-    height: 25px;
-    background: rgba(255,255,255,0.2);
-    animation: animate 20s linear infinite;
-    bottom: -150px;
-}
-.box-area li:nth-child(1){
-    left: 86%;
-    width: 80px;
-    height: 80px;
-    animation-delay: 0s;
-}
-.box-area li:nth-child(2){
-    left: 12%;
-    width: 30px;
-    height: 30px;
-    animation-delay: 1.5s;
-    animation-duration: 10s;
-}
-.box-area li:nth-child(3){
-    left: 70%;
-    width: 100px;
-    height: 100px;
-    animation-delay: 5.5s;
-}
-.box-area li:nth-child(4){
-    left: 70%;
-    width: 150px;
-    height: 150px;
-    animation-delay: 0s;
-    animation-duration: 15s; 
-}
-.box-area li:nth-child(5){
-    left: 65%;
-    width: 40px;
-    height: 40px;
-    animation-delay: 0s;
-}
-.box-area li:nth-child(6){
-    left: 15%;
-    width: 110px;
-    height: 100px;
-    animation-delay: 3.5s;
-}
-@keyframes animate{
-    0%{
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(-800px) rotate(360deg);
-        opacity: 0;
-    }
 }
