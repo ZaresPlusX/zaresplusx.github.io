@@ -1,47 +1,331 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>BLog</title>
-<link rel="stylesheet" href="styleproject.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="icon" href="/img/favicon.ico" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <title>Projects</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
+
 </head>
-<body>
-<div class="banner-text">
-<ul>
-<li><a href="./index.html"><i class="fa fa-home"></i>Home</a></li>
-<li class="active"><a href="projects.html"><i class="fa fa-download"></i>Projects</a></li>
-<li><a href="./discordserver.html"><i class="fa fa-server"></i>Discord Server</a></li>
-<li><a href="./contactus.html"><i class="fa fa-envelope"></i>Contact US</a></li>
-</ul>
-</div>
-<div class="container">
-<h1 class="text-center">Projects</h1>
-<h2 class="text-center">You can find more at my GitHub page</h2>   
-<div class="row">
-<div class="col-md-4">
-<div class="single-blog">
-<p class="blog-meta">By admin <span>March 9, 2020</span></p>
-<img src="download.jpg">
-<h2>Krunker ℤ𝔼ℝ𝟘𝕏</h2>
-<p class="blog-text">Krunker minimal cheat</p>
-<p><a href="https://github.com/ZaresPlusX/Krunker_ZER0X" class="read-more-btn">Read More</a>
-<span><i class="fa fa-star"></i> 13 stars, <i class="fa fa-code-fork"></i> 38 forks </span>
-</p>
-</div>
-</div>
-<div class="col-md-4">
-<div class="single-blog">
-<p class="blog-meta">By admin <span>March 1, 2020</span></p>
-<img src="download.jpg">
-<h2>zaresplusx.github.io web</h2>
-<p class="blog-text">My web code</p>
-<p><a href="https://github.com/ZaresPlusX/zaresplusx.github.io/" class="read-more-btn">Read More</a>
-<span><i class="fa fa-star"></i> 0 stars, <i class="fa fa-code-fork"></i> 0 forks </span>
-</p>
-</div>
-</div>
-</div>
-</div>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <div id="preloader"></div>
+
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                  <h1><span>NoSTeam</span>Plus</h1>
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <!-- <img src="img/logo.png" alt="" title=""> -->
+								</a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a class="page-scroll" href="./index.html">Home</a>
+                  </li>
+                  <li class="active">
+                    <a class="page-scroll" href="projects.html">Projects</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="https://discordapp.com/invite/cB9vPq7">Discord Server</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="contactus.html">Contact US</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
+
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
+        <img src="img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
+        <img src="img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
+      </div>
+
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">NoS Team </h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">for the best free cheats ever</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="https://www.youtube.com/channel/UCLxuarUbS3qzUy2SpLf3WEg/">Subscribe</a>
+                  <a class="ready-btn page-scroll" href="https://www.instagram.com/zaresplusx/">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">Best free no ad channel </h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Our content doesn't include ad links.</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="https://www.youtube.com/channel/UCLxuarUbS3qzUy2SpLf3WEg/">Subscribe</a>
+                  <a class="ready-btn page-scroll" href="https://www.instagram.com/zaresplusx/">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">Up to date </h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Always updating our cheats to the date</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="https://www.youtube.com/channel/UCLxuarUbS3qzUy2SpLf3WEg/">Subscribe</a>
+                  <a class="ready-btn page-scroll" href="https://www.instagram.com/zaresplusx/">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Slider Area -->
+    
+
+  <!-- Start Blog Area -->
+  <div id="blog" class="blog-area">
+    <div class="blog-inner area-padding">
+      <div class="blog-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Most viewed</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Start Left Blog -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single-blog">
+              <div class="single-blog-img">
+                <a href="blog.html">
+										<img src="img/blog/1.jpg" alt="">
+									</a>
+              </div>
+              <div class="blog-meta">
+                <span class="comments-type">
+										<i class="fa fa-eye"></i>
+										<a href="#">44.8k Views</a>
+									</span>
+                <span class="date-type">
+										<i class="fa fa-calendar"></i>2020-03-016 / 09:10:16 AM
+									</span>
+              </div>
+              <div class="blog-text">
+                <h4>
+                                        <a href="blog.html">Krunker.io Client/Browser Hack - Aimbot, ESP, Bhop, Chams</a>
+									</h4>
+                <p>
+This hack works perfectly in the browser, as well as on the game client of the game. The cheat is very easy to start and configure, everything is done using the menu...
+                </p>
+              </div>
+              <span>
+									<a href="krunker%20hack.html" class="ready-btn">Read more</a>
+								</span>
+            </div>
+            <!-- Start single blog -->
+          </div>
+          <!-- End Left Blog-->
+          <!-- Start Left Blog -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single-blog">
+              <div class="single-blog-img">
+                <a href="blog.html">
+										<img src="img/blog/2.jpg" alt="">
+									</a>
+              </div>
+              <div class="blog-meta">
+                <span class="comments-type">
+										<i class="fa fa-eye"></i>
+										<a href="#">67 Views</a>
+									</span>
+                <span class="date-type">
+										<i class="fa fa-calendar"></i>2020-03-10 / 01:10:16 PM
+									</span>
+              </div>
+              <div class="blog-text">
+                <h4>
+                                        <a href="blog.html">NoSteam Plus Web Open source code</a>
+									</h4>
+                <p>
+MTZ client is a fast client based on browser game named krunker.io...
+                </p>
+              </div>
+              <span>
+									<a href="mtz.html" class="ready-btn">Read more</a>
+								</span>
+            </div>
+            <!-- Start single blog -->
+          </div>
+          <!-- End Left Blog-->
+          <!-- Start Right Blog-->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single-blog">
+              <div class="single-blog-img">
+                <a href="blog.html">
+										<img src="img/blog/3.jpg" alt="">
+									</a>
+              </div>
+              <div class="blog-meta">
+                <span class="comments-type">
+										<i class="fa fa-eye"></i>
+										<a href="#">1.1k Views</a>
+									</span>
+                <span class="date-type">
+										<i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
+									</span>
+              </div>
+              <div class="blog-text">
+                <h4>
+                                        <a href="bracket.html">Brackets.io</a>
+									</h4>
+                <p>
+With focused visual tools and preprocessor support, Brackets is a modern text editor that makes it easy to design in the browser. It's crafted from the ground up ...
+                </p>
+              </div>
+              <span>
+									<a href="bracket.html" class="ready-btn">Read more</a>
+								</span>
+            </div>
+          </div>
+          <!-- End Right Blog-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Blog -->
+  <!-- Start Suscrive Area -->
+  <div class="suscribe-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
+          <div class="suscribe-text text-center">
+            <h3>Find more at our GitHub page</h3>
+            <a class="sus-btn" href="https://github.com/ZaresPlusX">Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Suscrive Area -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>

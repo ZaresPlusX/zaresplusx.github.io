@@ -1,5 +1,4 @@
 @import "https://fonts.googleapis.com/css?family=Lato:100";
-
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +18,6 @@ section{
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
-/*text in middle setting*/
 hl{ 
     font-size: 5rem;
     text-transform: uppercase;
@@ -32,8 +30,6 @@ hl{
     padding: 5rme 10rem;
     color: #fff;
 }
-/*text in middle setting*/
-/*Home etc*/
 .bannner-text{ 
     width: 100%;
     position: absolute;
@@ -55,6 +51,12 @@ ul{
     color: #262626;
     font-weight: bold;
     font-size: 20px;
+}
+.banner-text h2{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 20%;
 }
 ul li a:hover{
     background-color: #fff;
@@ -90,7 +92,6 @@ ul li.active a{
     background-color: #fff;
     color: #000;
 }
-/*Home etc*/
 @keyframes change {
     0%{
         background-position: 0 50%;
